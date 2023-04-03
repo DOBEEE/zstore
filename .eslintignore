@@ -1,0 +1,12 @@
+dist/**
+# node_modules/**
+.gitignore
+*.sh
+*.json
+mock
+*.cloud
+*.js
+*.d.ts
+scripts/*
+es
+lib

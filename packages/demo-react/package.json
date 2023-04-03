@@ -1,0 +1,28 @@
+{
+  "name": "zstore-demo",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zstore/core": "0.0.1",
+    "@zstore/react": "0.0.1",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.14",
+    "@vitejs/plugin-react": "^2.0.0",
+    "babel-plugin-react-directives": "^2.0.1",
+    "vite": "^3.0.0",
+    "vite-plugin-externals": "^0.5.1",
+    "vite-plugin-jsx-plus": "^0.1.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "preserve",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": false,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "removeComments": false,
+    "types": [
+      "jest"
+    ],
+    "baseUrl": ".",
+  },
+  "include": [
+    "packages/*/src",
+    "packages/*/demo",
+  ]
+}
