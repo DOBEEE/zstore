@@ -1,6 +1,6 @@
 {
   "name": "@zstore/core",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.es.js",
   "module": "dist/index.es.js",
@@ -21,7 +21,6 @@
     "broadcast-channel": "^3.7.0"
   },
   "devDependencies": {
-    "vite": "^3.0.0",
     "@types/react": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
@@ -34,6 +33,7 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.1.2",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "vite": "^3.0.0"
   }
 }

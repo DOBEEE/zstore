@@ -1,7 +1,7 @@
 {
   "name": "zstore-demo",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zstore/core": "0.0.1",
-    "@zstore/react": "0.0.1",
     "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@zstore/core": "^0.0.3",
+    "@zstore/react": "^0.0.3",
     "react": ">= 16.8.0",
     "react-dom": ">= 16.8.0",
     "styled-components": "^5.3.3"
