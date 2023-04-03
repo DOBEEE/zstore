@@ -6,8 +6,8 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   resolve: {
     alias: {
-      '@zstore/core': '@zstore/core/src/index.ts',
-      '@zstore/react': '@zstore/react/src/index.ts',
+      '@sstore/core': '@sstore/core/src/index.ts',
+      '@sstore/react': '@sstore/react/src/index.ts',
     },
   },
   plugins: [
@@ -21,9 +21,4 @@ export default defineConfig({
     force: true,
     // entries: ['mobx-react-lite', 'mobx', 'react-beautiful-dnd'],
   },
-  // build: {
-  //   commonjsOptions: {
-  //     include: ['@alife/zlist', /node_modules/],
-  //   },
-  // },
 });

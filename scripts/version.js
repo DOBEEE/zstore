@@ -64,7 +64,7 @@ const rootDir = process.cwd();
   if (shouldRunVersion) {
     execSync('npm run lerna-version -- --ignore-scripts', { stdio: 'inherit' });
   } else {
-    console.log(chalk.red('检测到待发布的包已更新了版本，请直接前往DEF发布！'));
+    console.log(chalk.red('检测到待发布的包已更新了版本，请直接发布！'));
   }
 })().catch((e) => {
   console.log(chalk.red(e.message));

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useSelector, useDispatch } from '@zstore/react';
+import { useSelector, useDispatch } from '@sstore/react';
 
 // ttiPolyfill.getFirstConsistentlyInteractive({}).then((tti) => {
 //   // Use `tti` value in some way.

@@ -1,5 +1,5 @@
 {
-  "name": "@zstore/core",
+  "name": "@sstore/core",
   "version": "0.0.3",
   "description": "",
   "main": "dist/index.es.js",

@@ -1,5 +1,5 @@
 import models from './models';
-import { createStore } from '@zstore/core';
+import { createStore } from '@sstore/core';
 
 export default () => {
   const store = createStore<typeof models>({

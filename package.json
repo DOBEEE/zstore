@@ -19,13 +19,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.11.0",
-    "eslint-config-ali": "^14.0.2",
-    "lerna": "^4.0.0",
-    "prettier": "^2.6.0",
-    "typescript": "4.6.3",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^8.11.0",
+    "eslint-config-ali": "^14.0.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-module": "^0.1.0",
@@ -34,15 +31,19 @@
     "eslint-plugin-react-directives": "^1.0.1",
     "eslint-plugin-react-hooks": "^4.1.2",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11"
+    "lerna": "^4.0.0",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.6.0",
+    "typescript": "4.6.3"
   },
   "version": "0.0.0",
   "dependencies": {
-    "vite": "^3.0.0",
     "chalk": "^5.1.2",
     "child_process": "^1.0.2",
     "fs-extra": "^10.1.0",
     "globby": "^13.1.2",
-    "ts-node": "^10.9.1"
+    "ice-npm-utils": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "vite": "^3.0.0"
   }
 }

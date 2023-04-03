@@ -8,7 +8,7 @@
 ## 安装
 
 ```
-tnpm i @zstore/core @zstore/react
+tnpm i @sstore/core @sstore/react
 ```
 
 ## 快速开始
@@ -39,13 +39,13 @@ const models = {
 ### 2.创建store
 
 ```
-import { createStore } from "@zstore/core";
+import { createStore } from "@sstore/core";
 const store = createStore({ models, globalSpace: window });
 ```
 ### 3.获取模型
 
 ```js
-import { useSelector } from "@zstore/react";
+import { useSelector } from "@sstore/react";
 const Index = function ({ query, history, ...rest }) {
   // 需要将创建的 store 作为参数传入
   const state = useSelector((state) => state?.userInfo)(window.store);
@@ -56,7 +56,7 @@ const Index = function ({ query, history, ...rest }) {
 ### 4.获取 reducers 和 actions 方法
 
 ```js
-import { useDispatch } from "@zstore/react";
+import { useDispatch } from "@sstore/react";
 const Index = function ({ query, history, ...rest }) {
   const { setState, foo } = useDispatch("userInfo")(window.store);
   //...
@@ -238,7 +238,7 @@ const { setState, foo } = useDispatch('userInfo')(window.store);
 useDispatch 方法接受 models，可以对模型的reducers、actions方法做出提示，eg：
 
 ```js
-import { useDispatch } from "@zstore/react";
+import { useDispatch } from "@sstore/react";
 import models from 'models';
 
 const Index = function ({ ...props }) {
